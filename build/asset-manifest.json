@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3379daba.css",
+    "main.js": "/static/js/main.743e32cd.js",
+    "static/media/Man-with-Talent.jpg": "/static/media/Man-with-Talent.0a48c07ded761219f2a3.jpg",
+    "index.html": "/index.html",
+    "main.3379daba.css.map": "/static/css/main.3379daba.css.map",
+    "main.743e32cd.js.map": "/static/js/main.743e32cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3379daba.css",
+    "static/js/main.743e32cd.js"
+  ]
+}

@@ -1,0 +1,189 @@
+.header{
+    padding: 16px 0 24px;
+}
+
+.header a{
+    color: #665050;
+}
+
+.search-input{
+    background-color: #fff;
+    height: 30px;
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    transition: 0.8s;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}
+
+.search-input:hover input{
+    width: 150px;
+}
+
+.search-input input{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 0;
+    font-weight: 500;
+    transition: 0.8s;
+}
+
+.search-input li{
+    color: #6650507b;
+}
+
+#dropdown-basic-button{
+    background-color: #665050;
+}
+
+.jumbo-txt h1{
+    color: #AD6359;
+}
+
+.spcl_text{
+    color: #AD63599E;
+}
+
+.universal-btn{
+    letter-spacing: 1px;
+    background-color: #665050 !important;
+}
+
+.universal-btn:hover{
+    letter-spacing: 1px;
+    background-color: #8e7070 !important;
+}
+
+.cocktail-header{
+    background-color: #8D561533;
+    margin-top: 50px;
+    padding: 60px 10px 24px 80px;
+}
+
+.cocktail-header h1{
+    font-size: 60px;
+    color:#665050;
+}
+
+
+.card{
+    background-color: #EDE4D933 !important;
+    border: none !important;
+}
+
+.card h3{
+    font-size: 20px;
+    color: #665050;
+}
+
+.card-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.card-comp{
+    width: 300px;
+    height:300px ;
+    padding: 30px 50px 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color:#EDE4D933 !important;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+    border-radius: 30px;
+}
+
+.section-title{
+    color: #AD6359;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+iframe{
+    width: 100%;
+    height:400px;
+}
+
+.drink-info{
+    font-weight: 500;
+}
+
+.drink-info b{
+    display: block;
+    font-size: 25px;
+    color: #AD6359;
+}
+
+.error_txt h1{
+    color: #AD6359;
+}
+
+.error_img img,.drink-img img{
+    width: 400px;
+}
+
+.footer{
+    padding: 160px 0px 60px;
+    background-color: #E8DDD0;
+}
+
+.fo-subsection{
+    border-top:2px solid #374151;
+    padding-top: 26px;
+}
+
+@media only screen and (max-width:1025px){
+    .jumbo-img{
+        width: 400px;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+    .jumbo-img{
+        width: 300px;
+    }
+    .drink-img img {
+        width: 300px;
+    }
+
+    .cocktail-header h1{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:426px){
+    .jumbo-1{
+        position: relative;
+        background-image: url("../public/Images/Man-with-Talent.jpg");
+        background-position: center;
+    }
+    .jumbo-img{
+       visibility: hidden;
+    }
+    .jumbo-txt{
+        position: absolute;
+        left: 20px;
+        top: 100px;
+    }
+
+    .cocktail-header{
+        padding: 40px 60px 24px;
+        text-align: center;
+    }
+    .cocktail-header h1{
+        font-size: 30px;
+    }
+
+    .error_img img{
+        width: 300px;
+    }
+    iframe{
+        
+        height:200px;
+    }
+}
